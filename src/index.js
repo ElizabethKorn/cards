@@ -5,7 +5,6 @@ import visaLogo from "./images/visa.png";
 import mastercardLogo from './images/mastercard.png';
 import americanLogo from './images/american-express.png';
 
-// Вставляем логотипы в DOM
 const logos = [
   { src: visaLogo, alt: 'Visa' },
   { src: mastercardLogo, alt: 'MasterCard' },
@@ -32,10 +31,9 @@ input.addEventListener('input', () => {
 
   result.textContent = isValid ? '✅ Валидная карта' : '❌ Невалидная карта';
 
-  // Подсветка логотипов: активный — совпадает с типом карты, остальные — нет
   logosElements.forEach(img => {
     if (img.alt.toLowerCase() === type.toLowerCase()) {
-      img.classList.add('active');  // добавь стиль active в CSS для подсветки
+      img.classList.add('active');
     } else {
       img.classList.remove('active');
     }

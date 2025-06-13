@@ -1,19 +1,27 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
+    publicPath: './',
     clean: true,
   },
   devServer: {
     static: {
-      directory: path.resolve(__dirname, './'), // 👈 заменили './dist' на './'
+      directory: path.resolve(__dirname, './'),
     },
     port: 8080,
-    open: true, // автоматическое открытие браузера
+    open: true,
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './index.html',
+      filename: 'index.html',
+    }),
+  ],
   module: {
     rules: [
       {
@@ -31,5 +39,5 @@ module.exports = {
       },
     ],
   },
-  mode: 'development',
+  mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
 };

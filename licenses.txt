@@ -6,8 +6,6 @@ MasterCard Icon
 Source: https://www.freeimages.com/icon/mastercard-curved-5617576
 License URL: https://findicons.com/license
 
-Mir Icon
-Source: https://example.com/icons/mir
-Author: Unknown
-License: CC-BY 4.0
-License URL: https://creativecommons.org/licenses/by/4.0/
+American Express Icon
+Source: https://www.freeimages.com/icon/credit-american-express-5637239
+License URL: https://findicons.com/license
