@@ -1,0 +1,13 @@
+Visa Icon
+Image by <a href="https://www.freeimages.com/icon/visa-curved-5617564">Freeimages.com</a>
+License URL: https://www.freeimages.com/license
+
+MasterCard Icon
+Source: https://www.freeimages.com/icon/mastercard-curved-5617576
+License URL: https://findicons.com/license
+
+Mir Icon
+Source: https://example.com/icons/mir
+Author: Unknown
+License: CC-BY 4.0
+License URL: https://creativecommons.org/licenses/by/4.0/

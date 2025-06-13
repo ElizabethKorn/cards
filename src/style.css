@@ -1,0 +1,18 @@
+.card-logo {
+    width: 50px;
+    height: auto;
+    margin: 5px;
+  }
+  
+  .card-logo {
+    opacity: 0.4;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .card-logo.active {
+    opacity: 1;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+  }
+  
